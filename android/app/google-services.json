@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "207042501220",
+    "project_id": "spacera-company-project",
+    "storage_bucket": "spacera-company-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207042501220:android:a7285e57af9104834c9d71",
+        "android_client_info": {
+          "package_name": "com.spacex.spacera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207042501220-temufm32bfajq01ejmenv1gvi17chiaq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQFple2UrcBIVnfPt-wUE2aLsD0Vn6S7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207042501220-temufm32bfajq01ejmenv1gvi17chiaq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
