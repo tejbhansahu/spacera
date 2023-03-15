@@ -1,16 +1,50 @@
-# spacera
+# SpaceX rockets app using Bloc Pattern
 
-A new Flutter project.
+SpaceX app clone flutter project using flutter_bloc package.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+<img alt="Home Screen" height="550" src="assets/screenshots/home-screen.png" width="250"/>  <img alt="Rocket Details Screen one" height="550" src="assets/screenshots/detail-screen-one.png" width="250"/> <img alt="Rocket Details Screen two" height="550" src="assets/screenshots/detail-screen-two.png" width="250"/>
 
-A few resources to get you started if this is your first Flutter project:
+## Folder structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+.
+├── core
+│   ├── constant
+│   ├── data_sources
+│   ├── enums
+│   ├── exceptions
+│   ├── managers
+│   ├── navigation
+│   ├── models
+│   ├── repositories
+│   ├── services
+│   └── utils
+└── ui
+    ├── shared
+    ├── views
+    └── widgets
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+
+### Master branch
+
+- [x] json serialization
+- [x] connectivity service
+- [x] http service
+- [x] navigation service
+- [x] key storage service
+- [x] local storage service (NoSQL)
+- [x] life cycle manager to start/stop background services
+- [x] snack bar service
+
+## Example pages included
+
+- Home View (Renders a list of rockets fetched from JSON place holder API [r-spacex/SpaceX-API])
+- Rocket Details View (Dynamic view that loads the rocket information)
+
+## API Documentation
+
+- [SpaceX api documentation](https://github.com/r-spacex/SpaceX-API/blob/master/docs/README.md)
